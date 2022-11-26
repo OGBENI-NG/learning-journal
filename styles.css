@@ -50,8 +50,8 @@ header {
     position:absolute;
     top: 0;
     right: 0;
-    margin-right: .67em;
-    margin-top: .57em;
+    margin-right: .2em;
+    margin-top: .8em;
 }
 
 .close-nav-btn:hover {
