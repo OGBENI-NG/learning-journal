@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Learning Journal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"
+    >
+    
+</head>
+<body>
+    
+    <header>
+        <div class="logo-con">
+            <div class="img-con">
+                <img src="img/logo.png" alt="logo" class="logo">
+            </div>
+            <h1>My Learning Journal</h1>
+            <div class="btn-container">
+                <span id="open-nav-btn" class="open-nav-btn"><i class="fa-solid fa-bars"></i></span>
+            </div>
+        </div>
+       
+        <div class="nav-modal" id="nav-modal">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="home"><i class="fa-solid fa-house-chimney"></i> home</a></li>
+                    <li><a href="user.html"><i class="fa-solid fa-user"></i> about me</a></li>
+                </ul>
+            </nav>
+            <div class="btn-container">
+                <span id="close-nav-btn" class="close-nav-btn"><i class="fa-solid fa-xmark"></i></span>
+            </div>
+            
+        </div>
+        
+    </header>
+    <main class="main-content">
+        <section>
+            <div class="hero-details">
+                <div class="hero-con">
+                    <p class="date">november 11, 2022</p>
+                    <h1 class="hero-text">My new journey as a bootcamp student.</h1>
+                    <p class="article-text">
+                        After several months of learning
+                        in the Frontend Developer Career Path,
+                        I've made the big jump over to the Bootcamp
+                        to get expert code reviews of my Solo Projects
+                        projects and meet like-minded peers.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="article-container">
+                <div class="article" id="feed">
+                    <img src="img/project1.png" alt="dice-app-img" class="article-img" id="project-img">
+                    <p class="date">november 11, 2022</p>
+                    <h2 class="article-title">responsive login design</h2>
+                    <p class="article-preview-text">
+                        I'm excited to start a new learning journey as a
+                        Scrimba Frontend Developer Career Path, this is responsive design. 
+                        <a href="https://sweet-cocada-997652.netlify.app/" target="_blank"> scrimbafy.Adeolu</a>
+                    </p>
+                </div>
+                <div class="article">
+                    <img src="img/project2.png" alt="tindog-app-img" class="article-img" id="project-img">
+                    <p class="date">november 11, 2022</p>
+                    <h2 class="article-title">tindog app</h2>
+                    <p class="article-preview-text">
+                        I'm excited to start a new learning journey as a
+                        Scrimba Frontend Developer Career Path, this is  javascript solo project.
+                        <a href="https://bright-ganache-f2215c.netlify.app/" target="_blank"> tindog.com</a>
+                    </p>
+    
+                </div>
+                <div class="article">
+                    <img src="img/project3.png" alt="twimba-app-img" class="article-img">
+                    <p class="date">november 11, 2022</p>
+                    <h2 class="article-title">Password generator app</h2>
+                    <p class="article-preview-text">
+                        I'm excited to start a new learning journey as a
+                        Scrimba Frontend Developer Career Path, this is javascript solo project.
+                        <a href="https://password-generator777.netlify.app/" target="_blank"> passwordgenerator.com</a>
+                    </p>
+                </div>
+                <span id="view-more" onclick="viewMoreArticle()" class="view">view more</span>
+            </div> 
+            <div class="more-blog" id="more-blog">
+                    <div class="article">
+                        <img src="img/project8.png" alt="dice-app-img" class="article-img">
+                        <p class="date">november 11, 2022</p>
+                        <h2 class="article-title">tweeter clone app</h2>
+                        <p class="article-preview-text">
+                            I'm excited to start a new learning journey as a
+                            Scrimba Frontend Developer Career Path, this is javascript solo project. 
+                            <a href="https://ogbeni-ng.github.io/twitter-clone/" target="_blank"> twimba.com</a>
+                        </p>
+        
+                    </div>
+                    <div class="article more">
+                        <img src="img/project5.png" alt="tindog-app-img" class="article-img">
+                        <p class="date">november 11, 2022</p>
+                        <h2 class="article-title">bassket ball score board</h2>
+                        <p class="article-preview-text">
+                            I'm excited to start a new learning journey as a
+                            Scrimba Frontend Developer Career Path, this is javascript solo project.
+                            <a href="https://ogbeni-ng.github.io/basketballScoresBoard/" target="_blank"> scoreboard.com</a>
+                        </p>
+        
+                    </div>
+                    <div class="article  more">
+                        <img src="img/project6.png" alt="twimba-app-img" class="article-img">
+                        <p class="date">november 11, 2022</p>
+                        <h2 class="article-title">oldergram</h2>
+                        <p class="article-preview-text">
+                            I'm excited to start a new learning journey as a
+                            Scrimba Frontend Developer Career Path, this is CSS solo project.
+                            <a href="https://ogbeni-ng.github.io/solo-project-oldergram/" target="_blank"> oldergram.com</a>
+                        </p>
+        
+                    </div>
+                </div> 
+                <div class="more-con" id="more-articles">
+                    <a href="page2.html" class="view-more">view more</a>
+                </div>  
+        </section>
+    </main>
+    <footer>
+        <h1 class="footer-txt">my learning Journal</h1>
+        <p>Copyright ©2022</p>
+        <div class="links">
+            <a href="https://github.com/OGBENI-NG?tab=repositories"><i class="fa-brands fa-github"></i></a>
+            <a href="https://app.netlify.com/teams/ogbeni-ng/sites"><i class="fa-brands fa-battle-net"></i></a>
+            <a href="https://twitter.com/MiracleAdeolu"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
